@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 // import * as apiCalls from './apiCalls'
+import './images/backgrounds';
 import './App.css';
 import FilmsDisplay from './containers/FilmsDisplay/FilmsDisplay';
 
@@ -21,10 +22,10 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <main>
         <h1>World of Ghibli</h1>
         <FilmsDisplay films={this.state.films}/>
-      </div>
+      </main>
     )
   }
 }

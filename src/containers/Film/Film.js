@@ -1,6 +1,6 @@
 // import images from '../../images/images.js';
 import React from 'react';
-import './Film.scss';
+import './Film.css';
 
 const Film = ({title, description, photo}) => {
 
