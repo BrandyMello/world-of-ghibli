@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import * as apiCalls from './apiCalls'
 import './images/backgrounds';
 import './App.css';
 import FilmsDisplay from './containers/FilmsDisplay/FilmsDisplay';
@@ -24,6 +23,11 @@ class App extends Component {
     return (
       <main>
         <h1>World of Ghibli</h1>
+        <nav className="nav">
+          <button>HOME</button>
+          <input placeholder="player's name: Joanna Jones"></input>
+          <button>PLAY GAME</button>
+        </nav>
         <FilmsDisplay films={this.state.films}/>
       </main>
     )
